@@ -6,7 +6,6 @@
 body{
     background-color: rgb(182, 182, 172);
     justify-content: center;
-    align-items: center;
     display: flex;
     padding: 40px;
 }
@@ -54,17 +53,17 @@ body{
 
     .gallery{
         grid-template-columns:repeat(2, 1fr); 
+    }
         .info{
             font-size: 16px;
         }
-    }
 }
 
 @media(max-width: 768px){
     .gallery{
-        grid-template-columns:repeat(1,2fr);
+        grid-template-columns:repeat(1,1fr);
+    }
         .info{
             font-size: 15px;
     }
-}
 }
